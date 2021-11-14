@@ -1,0 +1,38 @@
+$header-container: #ccffff;
+$header-content: #008080;
+
+.header{
+
+}
+
+.nav-content {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+ background-color: $header-container;
+}
+
+ul.nav-content {
+  margin: 0px;
+}
+
+.nav-content li {
+  padding: 15px;
+  list-style: none;
+  transition:  1.5s;
+  border-radius: 2px;
+}
+
+.nav-content li:hover {
+  background-color: $header-content;
+}
+
+.nav-content li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+}

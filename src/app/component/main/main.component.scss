@@ -1,0 +1,21 @@
+/* Main */
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  .aside-container{
+    background-color: blanchedalmond;
+    
+   
+    min-width: 150px;
+    max-width: 210px;
+  }
+  
+  .main-container{
+    background-color: burlywood;
+    
+    
+    min-width: 510px;
+  }
